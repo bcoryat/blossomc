@@ -1,0 +1,45 @@
+baseURL: "https://blossomc.com"
+title: blossomc
+paginate: 5
+theme: PaperMod
+
+
+
+
+menu:
+  main:
+      - identifier: archive
+        name: archive
+        url: /archive/
+        weight: 10
+      - identifier: tags
+        name: tags
+        url: /tags/
+        weight: 20
+      - identifier: search
+        name: search
+        url: /search/
+        weight: 30
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON
+
+
+
+params:
+    env: production 
+    author: ["me"]
+    DateFormat: "January 2, 2006"
+    defaultTheme: light 
+    disableThemeToggle: true
+    ShowCodeCopyButtons: false
+    profileMode:
+        enabled: true
+        title: "Hello \U0001F44B"
+        subtitle: "Nothing to see here..."
+    disableAnchoredHeadings: true
+    ShowBreadCrumbs: true
+    ShowShareButtons: false
+    
